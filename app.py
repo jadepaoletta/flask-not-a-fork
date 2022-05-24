@@ -1,5 +1,5 @@
 from flask import Flask, redirect
-gapp = Flask(__name__)
+app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
