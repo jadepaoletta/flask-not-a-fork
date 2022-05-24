@@ -6,4 +6,4 @@ services:
     plan: standard
     branch: master
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn blah blah
+    startCommand: gunicorn app:app
