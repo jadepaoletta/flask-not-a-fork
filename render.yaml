@@ -4,6 +4,6 @@ services:
     env: python
     region: oregon
     plan: standard
-    branch: master
+    branch: breaking-change
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
