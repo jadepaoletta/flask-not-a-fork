@@ -7,7 +7,7 @@ def hello_world():
 
 @app.route('/success')
 def success():
-    return 'this is so successful, blah blah test test'
+    return 'this is so successful'
 
 if __name__ == '__main__':
     app.run(host="localhost", port=4000, debug=True)
